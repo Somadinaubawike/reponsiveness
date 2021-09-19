@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.JC-centre {
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.font-family {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-family2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.icons {
+    width: 90%;
+}
+
+.icons .menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner {
+    background-image: url(./image/hero-bg.jpg);
+    width: 100%;
+    height: 140vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.services {
+    width: 60%;
+}
+
+.banner .services h1 {
+    font-size: 9rem;
+    font-weight: bolder;
+    padding: 0 0 10px 40px;
+}
+
+.banner .services h2 {
+    font-size: 5rem;
+    padding: 40% 0 10px 40px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.banner hr {
+    width: 85%;
+    height: 12px;
+    background: white;
+    margin: 20px 0px 60px 40px;
+}
+
+.banner .banner-images {
+    width: 80%;
+    justify-content: center;
+    gap: 100px;
+}
+
+.help {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f2f2f2;
+}
+.help .help-container {
+    margin: 10% 0;
+}
+
+
+.help .help-container .help-text h5 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.help .help-container .help-text h2 {
+    font-size: 4rem;
+    padding-bottom: 40px;
+}
+
+.help .help-container .help-text p {
+    font-size: 1.3rem;
+    padding: 0 18%;
+}
+
+.help .help-container .help-button {
+    padding: 30px 0;
+}
+
+.help .help-container .help-button button {
+    padding: 15px 30px;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.6rem;
+}
+
+.call-us {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.call-us .call-us-container {
+    width: 80%;
+    margin: 60px 0;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.call-us .call-us-container .RHS {
+    width: 45%;
+}
+
+.call-us .call-us-container .RHS p {
+    padding: 70px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.call-us .call-us-container .LHS {
+    width: 50%; 
+}
+
+.call-us .call-us-container .LHS img {
+    padding-top: 60px;
+}
+
+.call-us .call-us-container .LHS h3 {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.call-us .call-us-container .LHS h4 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    color: red;
+} 
+
+.quality {
+    background: #d3d2d2;
+    justify-content: center;
+}
+
+.quality .quality-container {
+    width: 80%;
+    justify-content: center;
+}
+
+.quality .quality-container .quality-img {
+    width: 60%;
+    height: 100vh;
+    background: url(./image/billionphotos1079319min.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.quality .quality-container .quality-text {
+    width: 60%;
+}
+
+.quality .quality-container .quality-text h2 {
+    font-size: 5rem;
+    color: blue;
+    padding: 30% 0 5%;
+}
+
+.quality .quality-container .quality-text hr {
+    width: 100%;
+    height: 12px;
+    margin-bottom: 30px;
+    background: red;
+}
+
+.quality .quality-container .quality-text p {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+.quality .quality-container .quality-text button {
+    font-size: 0.8rem;
+    border: none;
+    background: red;
+    border-radius: 4px;
+    padding: 15px 30px;
+    color: white;
+}
+
+.our-services {
+    width: 100%;
+}
+
+.our-services .our-services-container {
+    width: 90%;
+    margin-bottom: 8%;
+}
+
+.our-services .our-services-container .choose {
+    gap: 20px;
+}
+
+.our-services .our-services-container h2 {
+    font-size: 4rem;
+    padding: 30px 0;
+}
+
+.our-services .our-services-container h5 {
+    font-size: 1.5rem;
+    font-weight: 3rem;
+}
+
+.our-services .our-services-container p {
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #111111;
+    width: 80%;
+}
+
+.about-us {
+    background: #104e92;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us .about-us-container {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+.about-us .about-us-container .about-us-text  {
+    width: 50%;
+
+}
+
+.about-us .about-us-container .about-us-text h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.about-us .about-us-container .about-us-text h6 {
+    font-size: 8rem;
+}
+
+.about-us .about-us-container .plumbing-img {
+    width: 60%;
+    margin-left: 10%;
+    
+}
+
+
+.about-us .about-us-container .plumbing-img img {
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+}
+
+.mission {
+    text-align: center;
+    align-items: center;
+}
+
+.mission .mission-container {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission .mission-container h2 {
+    font-size: 3rem;
+    padding: 40px 0;
+}
+
+.mission .mission-container p {
+    width: 45%;
+    font-size: 1.5rem;
+    color: #111111;
+    padding-bottom: 40px;
+}
+
+.mission .mission-container .mission-button {
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.mission .mission-container .mission-button .B1 {
+    border: none;
+    font-size: 0.87rem;
+    border-radius: 4px;
+    background: red;
+    padding: 20px 50px;
+    color: white;
+}
+
+.mission .mission-container .mission-button .B2 {
+    border: 1px solid;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    padding: 20px 50px;
+}
+
+.foot-note {
+    background: black;
+    color: white;
+}
+
+.foot-note .foot-note-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+}
+
+.foot-note .foot-note-container p {
+    padding: 50px 0;
+}
+
+@media (max-width: 375px) {
+    .banner {
+        background-position: 80.49% 50%;
+    }
+
+    .banner .services h2 {
+        font-size: 2.25rem;
+     
+    }
+    .banner .services h1 {
+        font-size: 3.625rem;
+    }
+
+    .banner .banner-images {
+        display: none;
+    }
+
+    
+}
