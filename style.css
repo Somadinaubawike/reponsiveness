@@ -97,11 +97,17 @@
 .help .help-container .help-text h2 {
     font-size: 4rem;
     padding-bottom: 40px;
+    font-weight: 700;
 }
 
 .help .help-container .help-text p {
     font-size: 1.3rem;
     padding: 0 18%;
+    font-weight: 300;
+}
+
+.color {
+    color: #111111;
 }
 
 .help .help-container .help-button {
@@ -109,12 +115,14 @@
 }
 
 .help .help-container .help-button button {
-    padding: 15px 30px;
+    padding: 16px 36px;
     color: white;
-    background: red;
+    background: #d1161e;
     border: none;
     border-radius: 4px;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .call-us {
@@ -124,14 +132,28 @@
 }
 
 .call-us .call-us-container {
-    width: 80%;
+    width: 90%;
     margin: 60px 0;
     justify-content: space-evenly;
+    align-items: center;
     align-content: center;
 }
 
 .call-us .call-us-container .RHS {
-    width: 45%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-us-img {
+    background-image: url(./image/billionphotos1882993.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin-left: 60px;
+    
 }
 
 .call-us .call-us-container .RHS p {
@@ -142,6 +164,16 @@
 
 .call-us .call-us-container .LHS {
     width: 50%; 
+}
+
+.call-us-img2 {
+    background-image: url(./image/billionphotos1883011.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin-right: 60px;
+    margin-top: 100px;
 }
 
 .call-us .call-us-container .LHS img {
@@ -197,15 +229,18 @@
 .quality .quality-container .quality-text p {
     font-size: 1.5rem;
     padding-bottom: 30px;
+    
 }
 
 .quality .quality-container .quality-text button {
-    font-size: 0.8rem;
-    border: none;
-    background: red;
-    border-radius: 4px;
-    padding: 15px 30px;
+    padding: 16px 36px;
     color: white;
+    background: #d1161e;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .our-services {
@@ -343,22 +378,45 @@
     padding: 50px 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 767px) {
     .banner {
         background-position: 80.49% 50%;
     }
 
     .banner .services h2 {
         font-size: 2.25rem;
+        padding-top: 527px;
      
     }
+
+    .banner .services {
+        width: 101%;
+        margin-left: 15px;
+    }
+
     .banner .services h1 {
         font-size: 3.625rem;
+        font-weight: 800;
     }
 
     .banner .banner-images {
         display: none;
     }
 
+    .help .help-container .help-text h2 {
+        width: 340px;
+        font-size: 3.125rem;
+        padding-left: 38px;
+    }
+
+    .help .help-container .help-text p {
+        width: 340px;
+        padding: 0;
+
+    }
+
+    .call-us .call-us-container {
+        flex-direction: column;
+    }
     
 }
