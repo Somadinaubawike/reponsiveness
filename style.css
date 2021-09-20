@@ -91,7 +91,6 @@
     font-size: 1.3rem;
     font-weight: lighter;
     padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .help .help-container .help-text h2 {
@@ -104,10 +103,6 @@
     font-size: 1.3rem;
     padding: 0 18%;
     font-weight: 300;
-}
-
-.color {
-    color: #111111;
 }
 
 .help .help-container .help-button {
@@ -215,7 +210,7 @@
 
 .quality .quality-container .quality-text h2 {
     font-size: 5rem;
-    color: blue;
+    color: #104e92;
     padding: 30% 0 5%;
 }
 
@@ -223,7 +218,7 @@
     width: 100%;
     height: 12px;
     margin-bottom: 30px;
-    background: red;
+    background: #d1161e;
 }
 
 .quality .quality-container .quality-text p {
@@ -269,7 +264,6 @@
 .our-services .our-services-container p {
     font-style: italic;
     font-size: 1.3rem;
-    color: #111111;
     width: 80%;
 }
 
@@ -337,7 +331,6 @@
 .mission .mission-container p {
     width: 45%;
     font-size: 1.5rem;
-    color: #111111;
     padding-bottom: 40px;
 }
 
@@ -417,6 +410,95 @@
 
     .call-us .call-us-container {
         flex-direction: column;
+        width: 100%;
+    }
+
+    
+    .call-us .call-us-container .RHS {
+        width: 100%;
+    }
+
+    .call-us .call-us-container .call-us-img {
+        margin-left: 0;
+    }
+
+    .call-us .call-us-container .call-us-img2 {
+        margin-top: 0;
+    }
+
+    .call-us .call-us-container .RHS p {
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    .call-us .call-us-container .LHS {
+        width: 100%;
     }
     
+    .call-us .call-us-container .LHS h3 {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    .call-us .call-us-container .LHS h4 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .quality-container {
+        flex-direction: column;
+    }
+
+    .quality .quality-container .quality-img {
+        width: 100%;
+        background-size: contain;
+    }
+
+    .quality .quality-container .quality-text {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .quality .quality-container .quality-text h2 {
+        font-size: 4rem;
+        padding-top: 0;
+    }
+
+    .our-services .our-services-container .choose {
+        flex-direction: column;
+    }
+
+    .about-us-container {
+        flex-direction: column;
+    }
+
+    .plumbing-img, .plumbing-img .row1, .plumbing-img .row2 {
+        flex-direction: column;
+    }
+
+    .about-us .about-us-container .plumbing-img {
+        width: 84%;
+        margin-left: 0;
+    }
+
+    .about-us .about-us-container .about-us-text {
+        width: 100%;
+    }
+
+    .about-us .about-us-container .about-us-text h6 {
+        font-size: 4rem;
+    }
+    
+    .mission .mission-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .mission .mission-container h2 {
+        font-size: 2rem;
+    }
+
+    .mission .mission-container p {
+        width: 206px;
+    }
 }
