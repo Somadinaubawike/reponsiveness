@@ -478,7 +478,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
     .banner {
         background-position: 77.49% 50%;
     }
