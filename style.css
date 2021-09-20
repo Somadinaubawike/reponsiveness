@@ -371,7 +371,7 @@
     padding: 50px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .banner {
         background-position: 50.74% 0;
     }
@@ -478,7 +478,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
     .banner {
         background-position: 77.49% 50%;
     }
