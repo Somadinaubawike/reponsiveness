@@ -371,7 +371,114 @@
     padding: 50px 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .banner {
+        background-position: 50.74% 0;
+    }
+
+    .banner .services {
+        width: 70%;
+    }
+
+    .banner .services h2 {
+        font-size: 3rem;
+        padding-top: 276px;
+        letter-spacing: 0;
+    }
+
+    .banner .services h1 {
+        font-size: 5rem;
+    }
+
+    .banner .services .banner-images {
+        gap: 4%;
+        width: 100%;
+    }
+
+    .help .help-container .help-text p {
+        padding: 0 5%;
+    }
+
+    .call-us .call-us-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .call-us .call-us-container .RHS {
+        width: 100%;
+    }
+
+    .call-us .call-us-container .LHS {
+        width: 100%;
+        margin-left: 128px;
+    }
+
+    .call-us-img {
+        width: 700px;
+        height: 445px;
+    }
+
+    .call-us-img2 {
+        width: 700px;
+        height: 445px;
+    }
+
+    .quality {
+        width: 100%;
+    }
+
+    .quality .quality-container {
+        width: 100%;
+        margin: 0 40px;
+    }
+
+    .quality .quality-container .quality-img {
+        width: 60%;
+        background-size: cover;
+    }
+    
+    .quality .quality-container .quality-text {
+        width: 50%;
+    }
+
+    .quality .quality-container .quality-text h2 {
+        font-size: 3rem;
+    }
+
+    .about-us .about-us-container {
+        flex-direction: column;
+    }
+
+    .about-us .about-us-container .about-us-text {
+        width: 100%;
+    }
+
+    .about-us .about-us-container .about-us-text h2 {
+        font-size: 1.125rem;
+    }
+
+    .about-us .about-us-container .about-us-text h6 {
+        font-size: 4.5rem;
+    }
+
+    .about-us .about-us-container .plumbing-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-us .about-us-container .plumbing-img img {
+        padding: 15px;
+        width: 350px;
+        height: 270px;
+    }
+
+    .mission .mission-container {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 375px) {
     .banner {
         background-position: 77.49% 50%;
     }
@@ -504,109 +611,3 @@
 } 
 
 
-@media (max-width: 1199px) {
-    .banner {
-        background-position: 50.74% 0;
-    }
-
-    .banner .services {
-        width: 70%;
-    }
-
-    .banner .services h2 {
-        font-size: 3rem;
-        padding-top: 276px;
-        letter-spacing: 0;
-    }
-
-    .banner .services h1 {
-        font-size: 5rem;
-    }
-
-    .banner .services .banner-images {
-        gap: 4%;
-        width: 100%;
-    }
-
-    .help .help-container .help-text p {
-        padding: 0 5%;
-    }
-
-    .call-us .call-us-container {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .call-us .call-us-container .RHS {
-        width: 100%;
-    }
-
-    .call-us .call-us-container .LHS {
-        width: 100%;
-        margin-left: 128px;
-    }
-
-    .call-us-img {
-        width: 700px;
-        height: 445px;
-    }
-
-    .call-us-img2 {
-        width: 700px;
-        height: 445px;
-    }
-
-    .quality {
-        width: 100%;
-    }
-
-    .quality .quality-container {
-        width: 100%;
-        margin: 0 40px;
-    }
-
-    .quality .quality-container .quality-img {
-        width: 60%;
-        background-size: cover;
-    }
-    
-    .quality .quality-container .quality-text {
-        width: 50%;
-    }
-
-    .quality .quality-container .quality-text h2 {
-        font-size: 3rem;
-    }
-
-    .about-us .about-us-container {
-        flex-direction: column;
-    }
-
-    .about-us .about-us-container .about-us-text {
-        width: 100%;
-    }
-
-    .about-us .about-us-container .about-us-text h2 {
-        font-size: 1.125rem;
-    }
-
-    .about-us .about-us-container .about-us-text h6 {
-        font-size: 4.5rem;
-    }
-
-    .about-us .about-us-container .plumbing-img {
-        width: 100%;
-        margin: 0;
-    }
-
-    .about-us .about-us-container .plumbing-img img {
-        padding: 15px;
-        width: 350px;
-        height: 270px;
-    }
-
-    .mission .mission-container {
-        width: 100%;
-        margin: 0;
-    }
-}
